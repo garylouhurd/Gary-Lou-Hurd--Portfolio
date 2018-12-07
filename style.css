@@ -51,43 +51,28 @@ table {
 
 html {
 	background: url(images/bkgd.jpg);
+	background-size: cover;
 }
-body{
-	background-color: rgba(0, 0, 0, 0);
+body {
+	background-color: transparent;
 }
 
-nav {
+/*nav {
 	height: 2em;
-	background-color: rgba(32, 32, 32, .9);
-	font-size: 2em;
-	font-family: 'palm';
-}
+	background-color: rgba(0, 0, 0, .9);
+	font-size: 1em;
+}*/
 li {
-	margin: 0 3em;
-	
-}
+	margin: 0 2em;
 
-.container {
-	height: 83vh;
-	opacity: 0;
-	animation: fadeIn 5s ease-in both;
-	animation-delay: 5s;
-	margin-top: .5em;
-	margin-left: .25em;
+}
+.rollIn,
+.fadeIn {
 	font-family: 'palm';
 	font-size: 12em;
-	line-height: 1.35em;
+	line-height: 2em;
 	color: #235a7d;
-	text-align: center;
+	text-shadow: 3px 3px 2px #fff;
+}
 
-}
-@keyframes fadeIn {
-	from {
-		opacity: 0;	
-		 
-	}
-	to {
-		opacity: 1;	
-		 
-	}
-}
+
